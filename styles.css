@@ -1,0 +1,170 @@
+h1{
+    font-family: 'Segou Ui';
+    color: rgb(0, 0, 0);
+  
+}
+h2{
+    font-family: 'Segoe UI';
+}
+nav{
+    display: flex;
+    height: 3rem;
+    text-transform: uppercase;
+    flex-direction: row;
+    
+   
+    
+}
+nav ul{
+ list-style: none;
+ display: flex;
+ gap: 4rem;
+margin-left: 6rem;
+font-size: large;
+}
+.hr1{
+ 
+ background-color: black;
+ height: 5px;
+ 
+ width: 75%;
+ border: none;
+}
+.hr2{
+  display: flex;
+
+  background-color: black;
+  height: 5px;
+  color: black;
+  width: 50%;
+margin-right: 50rem;
+}
+.hr3{
+
+}
+
+.brand{
+  display: flex;
+  margin-left: 15rem;
+  font-size:x-large;
+  
+}
+.searchbar{
+  margin-left: 25rem;
+
+}
+
+
+.home-backround{
+  background-image: linear-gradient(90deg,
+     black 15%,
+     transparent 50%,
+     transparent 50%,
+     black 95%) ,
+     url("earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    height: 50rem;
+    color: white;
+}
+.top-left {  
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-size: 50px;
+ font-weight: lighter;
+}
+.top-left1{ 
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 50px;
+}
+.top-left2{ 
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-size: 50px;
+}
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 35%;
+  right: 10%;
+  font-size: 50px;
+}
+.bottom-right1 {
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+  font-size: 50px;
+}
+.container1{
+        display: flex;
+        flex-direction: column;
+        align-items:first baseline;
+        justify-items: center;
+        margin-left: 10rem;
+    }
+.container2{
+    display: flex;
+}
+
+.container3{
+    display: flex;
+    justify-self: unset;
+    justify-content: center;
+   
+}
+
+  .container4 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .aboutusimg1{
+    display: flex;
+    background-size: cover;
+    height: 50rem;
+    width: 30rem;
+    flex-direction: column;
+    
+    position: absolute;
+    image-orientation: flip;
+    left: 65%;
+  }
+  .aboutusimg2{
+ display: flex;
+  }
+ .aboutus{
+  display: flex;
+  flex-direction: row;
+  max-width: 60rem;
+margin-left: 15rem
+  
+ }
+
+ .aboutus1{
+  display: flex;
+  flex-direction: row;
+  max-width: 20rem;
+ margin-left: 40rem;
+ margin-top: 4rem;
+ 
+  
+ }
+ .aboutus2{
+  display: flex;
+  flex-direction: row;
+  max-width: 20rem;
+margin-left: 40rem;
+margin-top: 4rem;
+ }
+.aboutintro{
+  display: flex;
+ flex-direction: column;
+justify-content: center;
+margin-left: 4rem;
+ 
+}
+  /* Top left text */
+  
