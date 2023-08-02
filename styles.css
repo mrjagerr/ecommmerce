@@ -8,6 +8,9 @@ h1{
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+
 }
 nav{
     display: flex;
@@ -45,8 +48,28 @@ font-size: large;
   width: 60rem;
 margin-right: 50rem;
 }
+.hr3{
+  
+    display: flex;
+
+    background-color: black;
+    height: 5px;
+    color: black;
+    width: 20rem;
+  margin-right: 50rem;
+ position: relative;
+  bottom: 25px;
+}
+.hr4{
+  display: flex;
+  flex-direction: column;
+  background-color: #BF7631;
+  height: 4px;
+  color: #BF7631;
+  width: 6rem;
 
 
+}
 .brand{
   display: flex;
   margin-left: 15rem;
@@ -57,8 +80,6 @@ margin-right: 50rem;
   margin-left: 25rem;
 
 }
-
-
 .home-backround{
   background-image: linear-gradient(90deg,
      black 15%,
@@ -80,7 +101,6 @@ margin-right: 50rem;
   font-size: 50px;
 
 }
-
 /* Bottom right text */
 .bottom-right {
   display: flex;
@@ -91,7 +111,6 @@ margin-right: 50rem;
   font-size: 50px;
 
 }
-
 .container1{
         display: flex;
         flex-direction: column;
@@ -103,14 +122,11 @@ margin-right: 50rem;
     display: flex;
     margin-top: 20rem;
 }
-
-
 .container3{
     display: flex;
     
    
 }
-
   .container4 {
     position: relative;
     text-align: center;
@@ -148,7 +164,6 @@ margin-right: 50rem;
   font-size:22px;
   
  }
-
  .aboutus1{
   display: flex;
   flex-direction: row;
@@ -176,10 +191,6 @@ font-weight: 400;
 text-transform: uppercase;
 
 }
-.ourproducts{
-  display: flex;
-}
-  /* Top left text */
   .card-container{
     display: flex;
     flex-wrap: wrap;
@@ -187,17 +198,48 @@ text-transform: uppercase;
   
     
   }
-  .card {
+  .cardimg{
+  display: flex;
+  background-size: cover;
+  height: 30rem;
+  width: 30rem;
+
+  }
+  .card{
    
    display: flex;
    flex-direction: column;
-   background-size: cover;
+   background-size: auto;
+   image-rendering: crisp-edges;
     width: 30rem;
-    height:fit-content;
-    background-size: cover;
-    padding-top: 10rem;
+    height:60rem;
+
+    padding-top: 5rem;
     overflow: hidden;
   padding-left: 6rem;
+
     
     
   }
+  .card-info{
+    display: flex;
+    max-width: 30rem;
+    font-size: 25px;
+  }
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+ 
+    display: inline-block;
+    background-color: #BF7631;
+    height: 30px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    font-size: larger;
+}
+.fontchange{
+  color: #BF7631;
+}
