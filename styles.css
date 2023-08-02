@@ -1,10 +1,13 @@
+
+
 h1{
-    font-family: 'Segou Ui';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
+    ;
   
 }
 h2{
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
     display: flex;
@@ -14,6 +17,9 @@ nav{
     
    
     
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul{
  list-style: none;
@@ -36,12 +42,10 @@ font-size: large;
   background-color: black;
   height: 5px;
   color: black;
-  width: 50%;
+  width: 60rem;
 margin-right: 50rem;
 }
-.hr3{
 
-}
 
 .brand{
   display: flex;
@@ -64,40 +68,30 @@ margin-right: 50rem;
      url("earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
     height: 50rem;
+   
     color: white;
 }
 .top-left {  
-  position: absolute;
-  top: 25%;
-  left: 10%;
+  display: flex;
+  flex-direction: row;
+  max-width: 20rem;
+  padding-top: 10rem;
+  padding-left: 10rem;
   font-size: 50px;
- font-weight: lighter;
+
 }
-.top-left1{ 
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  font-size: 50px;
-}
-.top-left2{ 
-  position: absolute;
-  top: 35%;
-  left: 10%;
-  font-size: 50px;
-}
+
 /* Bottom right text */
 .bottom-right {
-  position: absolute;
-  bottom: 35%;
-  right: 10%;
+  display: flex;
+  flex-direction: row;
+  max-width: 18rem;
+  padding-left: 90rem;
+  padding-top: 10rem;
   font-size: 50px;
+
 }
-.bottom-right1 {
-  position: absolute;
-  bottom: 25%;
-  right: 10%;
-  font-size: 50px;
-}
+
 .container1{
         display: flex;
         flex-direction: column;
@@ -107,12 +101,13 @@ margin-right: 50rem;
     }
 .container2{
     display: flex;
+    margin-top: 20rem;
 }
+
 
 .container3{
     display: flex;
-    justify-self: unset;
-    justify-content: center;
+    
    
 }
 
@@ -124,47 +119,85 @@ margin-right: 50rem;
   .aboutusimg1{
     display: flex;
     background-size: cover;
-    height: 50rem;
-    width: 30rem;
+    
+    width: 37rem;
     flex-direction: column;
     
     position: absolute;
-    image-orientation: flip;
-    left: 65%;
+    transform: scaleX(-1);
+    left: 75rem;
   }
   .aboutusimg2{
- display: flex;
+    display: flex;
+    background-size: cover;
+    
+    width: 27rem;
+    flex-direction: column;
+    
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 10rem;
+    
+   
   }
  .aboutus{
   display: flex;
   flex-direction: row;
-  max-width: 60rem;
-margin-left: 15rem
+  max-width: 55rem;
+  margin-left: 15rem;
+  font-size:22px;
   
  }
 
  .aboutus1{
   display: flex;
   flex-direction: row;
-  max-width: 20rem;
+  max-width: 30rem;
  margin-left: 40rem;
  margin-top: 4rem;
- 
+ font-size:22px;
   
  }
  .aboutus2{
   display: flex;
   flex-direction: row;
-  max-width: 20rem;
+  max-width: 30rem;
 margin-left: 40rem;
-margin-top: 4rem;
+margin-top: 3rem;
+font-size:22px;
  }
-.aboutintro{
+.intro{
   display: flex;
  flex-direction: column;
 justify-content: center;
-margin-left: 4rem;
- 
+margin-top: 5rem;
+font-size:50px;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+.ourproducts{
+  display: flex;
 }
   /* Top left text */
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   
+    
+  }
+  .card {
+   
+   display: flex;
+   flex-direction: column;
+   background-size: cover;
+    width: 30rem;
+    height:fit-content;
+    background-size: cover;
+    padding-top: 10rem;
+    overflow: hidden;
+  padding-left: 6rem;
+    
+    
+  }
