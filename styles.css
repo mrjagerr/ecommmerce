@@ -14,9 +14,12 @@ h2{
 }
 nav{
     display: flex;
-    height: 3rem;
+    height: 5rem;
     text-transform: uppercase;
     flex-direction: row;
+   align-items: center;
+  
+   
     
    
     
@@ -24,19 +27,22 @@ nav{
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-nav ul{
+.navul{
  list-style: none;
  display: flex;
  gap: 4rem;
 margin-left: 6rem;
-font-size: large;
+font-size: 20px;
+align-items: baseline;
+
+
 }
 .hr1{
  
  background-color: black;
  height: 5px;
  
- width: 75%;
+ width: 85%;
  border: none;
 }
 .hr2{
@@ -57,6 +63,7 @@ margin-right: 50rem;
     color: black;
     width: 20rem;
   margin-right: 50rem;
+  
  position: relative;
   bottom: 25px;
 }
@@ -73,7 +80,18 @@ margin-right: 50rem;
 .brand{
   display: flex;
   margin-left: 15rem;
-  font-size:x-large;
+  font-size:40px;
+  font-weight: 600;
+  align-items: center;
+  
+}
+.brand1{
+  display: flex;
+  font-size:60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  align-items: center;
+  
   
 }
 .searchbar{
@@ -101,7 +119,6 @@ margin-right: 50rem;
   font-size: 50px;
 
 }
-/* Bottom right text */
 .bottom-right {
   display: flex;
   flex-direction: row;
@@ -195,6 +212,7 @@ text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-left: 5rem;
   
     
   }
@@ -230,7 +248,7 @@ text-transform: uppercase;
   display: flex;
   justify-content: space-between;
 }
-button{
+.button1{
  
     display: inline-block;
     background-color: #BF7631;
@@ -239,7 +257,76 @@ button{
     color: #ffffff;
     text-align: center;
     font-size: larger;
+    border: none;
+}
+.button2{
+ 
+  display: inline-block;
+  background-color: #BF7631;
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-size: larger;
+  border: none;
 }
 .fontchange{
   color: #BF7631;
+}
+.textarea1{
+  resize: none;
+  width: 60rem;
+}
+.textarea2{
+  resize: none;
+  width: 60rem;
+  height: 10rem;
+ 
+}
+.contactuscontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ position: relative;
+  right: 30rem;
+}
+.buttonposition{
+  display: flex;
+  margin-top: 3rem;
+}
+footer{
+  display: flex;
+  background-color: #BF7631;
+ background-image: none;
+ flex-direction: column;
+ align-items: center;
+ margin-top:  5rem;
+}
+.footerimgs{
+  display: flex;
+  align-items: center;
+}
+.footerimg1{
+  display: flex;
+ background-image: cover;
+ 
+ margin-right: 10rem;
+}
+.footerimg2{
+  display: flex;
+  margin-left: 10rem;
+}
+.footerundertext{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10rem;
+ font-size: 25px;
+ margin-left: 15rem;
+
+}
+label{
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: right;
 }
