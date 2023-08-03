@@ -12,6 +12,16 @@ h2{
     font-size: 30px;
 
 }
+a{
+  text-decoration: none;
+  color: black;
+  background-size: cover;
+  height: 30rem
+  
+}
+.a1{
+  color: #BF7631;
+}
 nav{
     display: flex;
     height: 5rem;
@@ -52,7 +62,8 @@ align-items: baseline;
   height: 5px;
   color: black;
   width: 60rem;
-margin-right: 50rem;
+  
+  
 }
 .hr3{
   
@@ -219,8 +230,10 @@ text-transform: uppercase;
   .cardimg{
   display: flex;
   background-size: cover;
+  
   height: 30rem;
   width: 30rem;
+  
 
   }
   .card{
